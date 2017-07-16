@@ -1,0 +1,26 @@
+{
+  "title": "纯真年代",
+  "weixin": "colorweather",
+  "address": "北山路23号",
+  "map": "34.944,120.24545",
+  "chats": [
+    {
+      "header": "",
+      "name": "",
+      "type": "main",
+      "content": "虽然已经深夜，店里还有一对情侣，便没有打烊。"
+    },
+    {
+      "header": "",
+      "name": "店主",
+      "type": "left",
+      "content": "欢迎光临！喝点儿什么?"
+    },
+    {
+      "header": "",
+      "name": "客人",
+      "type": "right",
+      "content": "抱歉，我不知道，也许我该走了。"
+    }
+  ]
+}
