@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>西湖故事集</title>
+  </head>
+  <body>
+    <div>
+    西湖故事集
+    </div>
+  </body>
+</html>
