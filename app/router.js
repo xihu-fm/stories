@@ -4,6 +4,7 @@ module.exports = app => {
     //const auth = app.middlewares.auth();
     // 页面路由
     app.get('/', app.controller.web.home);
+    app.get('/detail', app.controller.web.home);
 
     app.get('/api/xihu/stories', app.controller.api.xihu.stories.list);
     app.get('/api/xihu/stories/:id', app.controller.api.xihu.stories.show);
