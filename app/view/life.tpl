@@ -4,7 +4,7 @@
 <head>
     <meta charset=utf-8>
     <meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-    <title>人生900格</title>
+    <title>人生 | 960格</title>
 </head>
 <style type="text/css">
 .divpass {
@@ -40,6 +40,15 @@
     float: left;
 }
 
+.bottomCenter {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    bottom: 0;
+    float: none;
+}
+
 body {
     margin: 16px;
     font-size: 10px;
@@ -50,8 +59,8 @@ body {
 <body>
     <div class="divbody">
         <script>
-        var year = {{year}};
-        var month = {{month}};
+        var year = {{ year }};
+        var month = {{ month }};
         var myDate = new Date();
         var currentMonth = myDate.getMonth();
         var currentYear = myDate.getFullYear();
@@ -77,6 +86,9 @@ body {
         document.write(line);
         </script>
     </div>
+    <br/>
+    <br/>
+    <div class="bottomCenter"><a href="http://m.xihu.fm">西湖故事集 </a> | &copy;2017</div>
 </body>
 
 </html>
