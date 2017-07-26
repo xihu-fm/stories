@@ -16,6 +16,10 @@ module.exports = {
                 "msgtype": "text",
                 "text": {
                     "content": "@所有人 ，本周二羽毛球活动开始报名了！活动费用20元/人，统一以专享红包形式给到 雨骋 。谢谢！"
+                },
+                "at": {
+                    "atMobiles": [], 
+                    "isAtAll": true
                 }
             }
         });
