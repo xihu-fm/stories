@@ -1,7 +1,7 @@
 module.exports = {
     
     schedule: {
-        cron: '0 30 9 * * 2', //每周二下午7：30点触发
+        cron: '0 30 11 * * 2', //每周二下午7：30点触发
         type: 'worker', 
     },
     
