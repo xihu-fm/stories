@@ -15,4 +15,6 @@ module.exports = app => {
     app.get('/960', app.controller.web.life);
     app.get('/960/:year', app.controller.web.life);
     app.get('/960/:year/:month', app.controller.web.life);
+    
+    app.get('/iot', app.controller.web.iot);
 };
