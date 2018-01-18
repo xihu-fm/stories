@@ -4,6 +4,7 @@
   "description": "西湖故事集",
   "private": true,
   "dependencies": {
+    "@alicloud/pop-core": "^1.5.0",
     "egg": "^1.5.0",
     "egg-validate": "^1.0.0",
     "egg-view-nunjucks": "^2.1.3",
